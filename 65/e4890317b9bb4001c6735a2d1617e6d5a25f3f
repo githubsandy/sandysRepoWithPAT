@@ -1,0 +1,23 @@
+tests/network_tests.yaml
+  s_94bd4ae92fb4be::t_82b4ab64e1e3b5 1-35
+tests/monitoring_tests.json
+  s_94bd4ae92fb4be::t_6c509546b10992 1-17
+tests/health_checks.csv
+  s_94bd4ae92fb4be::t_032c1f07e4901e 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "65e4890317b9bb4001c6735a2d1617e6d5a25f3f",
+  "prompts": {},
+  "sessions": {
+    "s_94bd4ae92fb4be": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ses_1f94b0800ffeLn7jLan71sCjxK",
+        "model": "unknown"
+      },
+      "human_author": "sandyiglasia <skumark5@cisco.com>"
+    }
+  }
+}
