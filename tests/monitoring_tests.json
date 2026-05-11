@@ -1,0 +1,17 @@
+[
+  {
+    "id": "TC-006",
+    "name": "Verify SSH Connectivity",
+    "description": "Test SSH access to all managed devices from jump server"
+  },
+  {
+    "id": "TC-007",
+    "name": "Verify SNMP Polling",
+    "description": "Confirm SNMP polling returns valid system information"
+  },
+  {
+    "id": "TC-008",
+    "name": "Verify Syslog Collection",
+    "description": "Validate syslog messages are being received by the collector"
+  }
+]

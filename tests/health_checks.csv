@@ -1,0 +1,5 @@
+id,name,description,tags
+TC-009,Verify CPU Utilization,Check CPU usage is below 80% threshold on all devices,performance
+TC-010,Verify Memory Utilization,Check memory usage is below 85% threshold,performance
+TC-011,Verify Disk Space,Ensure disk usage does not exceed 90% on any partition,performance
+TC-012,Verify Backup Completion,Validate daily configuration backup completed successfully,operations

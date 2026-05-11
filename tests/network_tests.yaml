@@ -1,0 +1,35 @@
+test_cases:
+  - id: "TC-001"
+    name: "Verify Interface Status"
+    description: "Check that all configured interfaces are in UP/UP state"
+    tags:
+      - network
+      - interface
+
+  - id: "TC-002"
+    name: "Verify BGP Neighbors"
+    description: "Validate all BGP neighbor sessions are in Established state"
+    tags:
+      - network
+      - bgp
+
+  - id: "TC-003"
+    name: "Verify OSPF Adjacency"
+    description: "Check OSPF adjacency is formed with all expected neighbors"
+    tags:
+      - network
+      - ospf
+
+  - id: "TC-004"
+    name: "Verify ACL Configuration"
+    description: "Validate access control lists are applied correctly on interfaces"
+    tags:
+      - security
+      - acl
+
+  - id: "TC-005"
+    name: "Verify NTP Synchronization"
+    description: "Ensure all devices are synchronized with the NTP server"
+    tags:
+      - network
+      - ntp
